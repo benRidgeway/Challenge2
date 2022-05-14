@@ -12,6 +12,10 @@ header {
     position: sticky;
     background-size: cover;
     background-attachment: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 :root {
@@ -63,6 +67,61 @@ header nav ul li {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 0%;
+}
+
+.WIM{
+    border: 3px solid var(#09ff00);
+    background: var(#1aa815)
+}
+
+.WIM h2 {
+    text-shadow: 0 0 15px #09ff01;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.WIM p {
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items:center;
+}
+
+.WID {
+    margin: 20px;
+    flex: 1;
+}
+
+.WID h2 {
+    text-shadow: 0 0 15px #09ff01;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center; 
+
+}
+
+.WID-image{
+    position: relative;
+    margin-left: 40px;
+}
+
+.WID p {
+    text-align: center;
+}
+
+.contact-info{
+    margin-left: 60px;
+    justify-content: center;
+    position: relative;
+
+}
+
+.contact h2{
+    text-shadow: 0 0 15px #09ff01;
+    color: #ffffff;
+    margin-left: 60px;
+    margin: 0 0 20px 60;
 }
 
 
